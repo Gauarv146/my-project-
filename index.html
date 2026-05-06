@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gaurav - Portfolio</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👨‍💻</text></svg>"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <span>GK</span>
+        </div>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#timeline" class="nav-link">Architecture</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <button class="theme-toggle" id="theme-toggle">
+          <i class="fas fa-moon"></i>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-container">
+        <div class="hero-content" data-aos="fade-right">
+          <h1>Hi, I'm <span class="highlight">Gaurav</span></h1>
+          <h2>
+            I'm a <span id="typed-text"></span><span class="cursor">|</span>
+          </h2>
+              <p>Cloud Engineer | AWS | Terraform | CI/CD</p>
+              <p style="padding-left: 50px;">I design and deploy scalable, secure cloud solutions using AWS and DevOps practices.</p>
+
+          <div class="hero-buttons">
+
+  <a href="#projects" class="btn btn-primary">
+    <i class="fas fa-code"></i> View Projects
+  </a>
+
+  <a href="#contact" class="btn btn-secondary">
+    <i class="fas fa-envelope"></i> Contact Me
+  </a>
+
+  <!-- <a
+    href="assets/Gaurav_Cloud_Engineer_Resume.pdf"
+    class="btn btn-outline"
+    download
+  >
+    <i class="fas fa-download"></i> Download Resume
+  </a> -->
+
+</div>
+
+
+        </div>
+        <div class="hero-image" data-aos="fade-left">
+          <img
+            src="images/profile.png"
+            alt="Gaurav"
+            class="profile-img"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title" data-aos="fade-up">About Me</h2>
+        <div class="about-content">
+          <div class="about-intro">
+
+            
+          </div>
+          <div class="about-main">
+            <div class="about-text">
+              <div class="about-card">
+                <h4>
+                  <i class="fas fa-graduation-cap"></i> Education & Academics
+                </h4>
+                <p>Master of Computer Applications (MCA)</p>
+                <p>Institute of Technology & Science</P>
+              </div>       
+              <div class="about-card">
+  <h4><i class="fab fa-aws"></i> Cloud Engineering Experience</h4>
+
+  <p>
+    Designing and deploying scalable, fault-tolerant cloud applications on AWS using serverless and event-driven architectures.
+  </p>
+
+  <ul>
+    <li>Built and deployed applications using <strong>S3</strong>, <strong>EC2</strong>, <strong>Lambda</strong>, <strong>CloudFront</strong>, and <strong>CloudWatch</strong></li>
+    <li>Automated deployments using <strong>CI/CD pipelines</strong> (GitHub Actions)</li>
+    <li>Implemented monitoring and alerting for system reliability</li>
+  </ul>
+
+  <p><strong>Core Focus:</strong> High Availability • Scalability • Cost Optimization</p>
+
+</div>
+              
+<div class="about-card">
+  <h4><i class="fas fa-code"></i> Projects & Architecture</h4>
+
+  <p>
+   Production-ready cloud systems built on AWS:
+  </p>
+
+  <ul>
+    <li>
+      <strong>Static Website Hosting with CI/CD:</strong>
+      Built and deployed a scalable static website using <strong>S3</strong> and <strong>CloudFront</strong>, with automated deployments via <strong>GitHub Actions</strong>
+    </li>
+
+    <li>
+      <strong>Serverless File Upload System:</strong>
+      Developed a secure file upload workflow using <strong>API Gateway</strong>, <strong>Lambda</strong>, and <strong>S3</strong> with event-driven processing
+    </li>
+
+    <li>
+      <strong>Cloud Monitoring System:</strong>
+      Implemented centralized logging and alerting using <strong>CloudWatch</strong> to improve system reliability and observability
+    </li>
+
+    <li>
+      <strong>3-Tier Web Application:</strong>
+      Designed a scalable architecture using <strong>EC2</strong>, <strong>Application Load Balancer</strong>, and <strong>RDS</strong> with proper layer separation
+    </li>
+  </ul>
+</div> 
+
+            </div>
+            <div class="about-stats">
+              <div class="stat-item">
+                <h3>4+</h3>
+                <p>Production Cloud Projects</p>
+              </div>
+              <div class="stat-item">
+                <h3>AWS Stack</h3>
+                <p>S3 • EC2 • Lambda • CloudWatch • CloudFront</p>
+              </div>
+              <div class="stat-item">
+                <h3>CI/CD Automation</h3>
+                <p>GitHub Actions • Deployment Pipelines</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="about-tagline">
+  <strong>Impact:</strong> Improved deployment efficiency using CI/CD and built scalable, highly available cloud systems.</p>
+
+
+</section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Skills</h2>
+        <div class="skills-container">
+          <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+            <h3>Cloud & DevOps</h3>
+            <div class="skill-item">
+              <span>☁️ AWS: EC2, S3, Lambda, CloudFront, CloudWatch (Core Services)</span>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="75%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span>⚙️ CI/CD: GitHub Actions</span>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="70%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span>🐳 Docker</span>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="50%"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <span>🔧 Version Control: Git & GitHub</span>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="65%"></div>
+              </div>
+            </div>
+
+          </div>
+          <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+            <h3>Scripting & Data</h3>
+            <div class="skill-item">
+              <span> Python</span>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="55%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span>📊 SQL</span>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="65%"></div>
+              </div>
+            </div>
+
+
+            <div class="skill-item">
+              <span>Bash (Basic)</span>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="45%"></div>
+              </div>
+            </div>
+
+
+            <div class="skill-item">
+              <span>Linux</span>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="65%"></div>
+              </div>
+            </div>
+          </div>
+          <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+            <h3>Web Technologies</h3>
+            <div class="skill-item">
+              <span>HTML</span>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="70%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span>CSS</span>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="70%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span>JavaScript</span>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="55%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Projects</h2>
+        <div class="projects-grid">
+
+          <!-- project 1 -->
+          <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="project-image">
+              <img
+                src="images/project1.png"
+                alt="Static Website Hosting"
+                loading="lazy"
+              />
+              <div class="project-overlay">
+                <a
+                  href="https://github.com/Gauarv146/aws-static-website-s3-cloudfront-cicd"
+                  target="_blank"
+                  class="project-link"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-header">
+                <h3>Static Website Hosting with CI/CD</h3>
+                <button class="like-btn" onclick="toggleLike(this)">
+                  <i class="far fa-heart"></i>
+                </button>
+              </div>
+              <p>
+          Deployed a static website using AWS S3 and CloudFront with automated CI/CD pipeline using GitHub Actions.
+              </p>
+              <div class="project-details" style="display: none">
+                <ul>
+                  <li>
+                    Deployed static web content to AWS S3 with proper access and hosting configuration
+                  </li>
+                  <li>
+                    Automated deployment workflow using GitHub Actions for continuous integration and delivery
+                  </li>
+                  <li>
+                    Maintained source code and versioning using GitHub
+                  </li>
+                  <li>
+                    Applied basic cloud best practices for performance and cost optimization
+                  </li>
+                </ul>
+              </div>
+              <div class="tech-stack">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>AWS S3</span>
+                <span>CloudFront</span>
+                <span>GitHub Actions</span>
+                <span>Git</span>
+      
+              </div>
+
+<div class="project-github">
+  <a href="https://github.com/Gauarv146/aws-static-website-s3-cloudfront-cicd" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-github"></i>
+    <span>View Project on GitHub</span>
+  </a>
+</div>
+
+            </div>
+          </div>
+
+          <!-- project 2 -->
+          
+          <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="project-image">
+              <img
+                src="images/project2.png"
+                alt="Serverless File Upload System"
+                loading="lazy"
+              />
+              <div class="project-overlay">
+                <a
+                  href="https://github.com/Gauarv146/aws-serverless-file-upload-lambda-apigateway"
+                  target="_blank"
+                  class="project-link"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-header">
+                <h3>Serverless File Upload System</h3>
+                <button class="like-btn" onclick="toggleLike(this)">
+                  <i class="far fa-heart"></i>
+                </button>
+              </div>
+              <p>
+                Designed and implemented a serverless file upload system using AWS services to securely store and manage user-uploaded files.
+
+              </p>
+              <div class="project-details" style="display: none">
+                <ul>
+                  <li>
+                    Configured IAM roles and policies to ensure secure access control
+                  </li>
+                  <li>
+                    Used AWS Lambda to handle backend processing and validation of uploaded files
+                  </li>
+                  <li>
+                    Built file upload functionality using pre-signed URLs for secure direct uploads to AWS S3
+                  </li>
+                  <li>
+                    Enabled event-based triggers for file processing.
+                  </li>
+                </ul>
+              </div>
+              <div class="tech-stack">
+                <span>Python</span>
+                <span>AWS Lambda</span>
+                <span>API Gateway</span>
+                <span>S3</span>
+                <span>IAM</span>
+                <span>Github</span>
+              </div>
+
+              <!-- Github  -->
+
+<div class="project-github">
+  <a href="https://github.com/Gauarv146/aws-serverless-file-upload-lambda-apigateway" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-github"></i>
+    <span>View Project on GitHub</span>
+  </a>
+</div>
+
+            </div>
+          </div>
+          
+          <!-- project 3 -->
+
+          <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="project-image">
+              <img
+                src="images/project3.png"
+                alt="Cloud Monitoring & Logging System"
+                loading="lazy"
+              />
+              <div class="project-overlay">
+                <a
+                  href="https://github.com/Gauarv146/aws-cloud-monitoring-system-cloudwatch-sns"
+                  target="_blank"
+                  class="project-link"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-header">
+                <div class="project-title-section">
+                  <h3>Cloud Monitoring & Logging System</h3>
+              
+                </div>
+                <button class="like-btn" onclick="toggleLike(this)">
+                  <i class="far fa-heart"></i>
+                </button>
+              </div>
+              <p>
+                Implemented a monitoring and logging solution to track application performance and system health using AWS native tools.
+              </p>
+            
+              <div class="project-details" style="display: none">
+                <ul>
+                  <li>
+                    Configured AWS CloudWatch for real-time monitoring of logs and metrics
+                  </li>
+                  <li>
+                    Set up alarms to notify on threshold breaches (CPU, errors, etc.)
+                  </li>
+                  <li>
+                    Created dashboards for visualizing system performance
+                  </li>
+                  <li>
+                    Integrated SNS for email notifications on alerts
+                  </li>
+                  <li>
+                    Analyzed logs to troubleshoot and optimize system performance
+                  </li>
+                </ul>
+              </div>
+              <div class="tech-stack">
+                <span>AWS CloudWatch</span>
+                <span>SNS</span>
+                <span>EC2</span>
+                <span>Lambda</span>
+                <span>IAM</span>
+                <span>GitHub</span>
+          
+              </div>
+
+              <!-- Github  -->
+
+<div class="project-github">
+  <a href="https://github.com/Gauarv146/aws-cloud-monitoring-system-cloudwatch-sns" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-github"></i>
+    <span>View Project on GitHub</span>
+  </a>
+</div>
+            </div>
+          </div>
+
+            <!-- project 4 -->
+    <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="project-image">
+              <img
+                src="images/project4.png"
+                alt="3-Tier Architecture Web Application"
+                loading="lazy"
+              />
+              <div class="project-overlay">
+                <a
+                  href="https://github.com/Gauarv146/aws-3tier-architecture-ec2-rds-alb"
+                  target="_blank"
+                  class="project-link"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-header">
+                <div class="project-title-section">
+                  <h3>3-Tier Architecture Web Application</h3>
+              
+                </div>
+                <button class="like-btn" onclick="toggleLike(this)">
+                  <i class="far fa-heart"></i>
+                </button>
+              </div>
+              <p>
+                Deployed a scalable 3-tier web application architecture separating frontend, backend, and database layers.
+              </p>
+            
+              <div class="project-details" style="display: none">
+                <ul>
+                  <li>
+                    Deployed backend application on EC2 instances
+                  </li>
+                  <li>
+          Configured security groups and networking (VPC basics)
+                  </li>
+                  <li>
+                    Configured security groups and networking (VPC basics)
+                  </li>
+                  <li>
+                      Ensured communication between tiers with proper security practices
+                  </li>
+                  
+                </ul>
+              </div>
+              <div class="tech-stack">
+                <span>AWS EC2</span>
+                <span>S3</span>
+                <span>RDS</span>
+                <span>CloudFront</span>
+                <span>VPC</span>
+                <span>GitHub</span>
+          
+              </div>
+
+              <!-- Github  -->   
+
+<div class="project-github">
+  <a href="https://github.com/Gauarv146/aws-3tier-architecture-ec2-rds-alb" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-github"></i>
+    <span>View Project on GitHub</span>
+  </a>
+</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Architecture Section -->
+    <section id="timeline" class="timeline">
+
+<section class="architecture">
+  <h1>Architecture</h1>
+  <p class="subtitle">Cloud-Based Scalable System Designs on AWS</p>
+
+  <!-- Project 1 -->
+  <div class="card">
+    <h2>Static Website Hosting with CI/CD</h2>
+    <div class="box-container">
+      <div class="box">
+        <h3>Frontend</h3>
+        <p>S3 + CloudFront</p>
+      </div>
+      <div class="box">
+        <h3>CI/CD</h3>
+        <p>GitHub Actions</p>
+      </div>
+      <div class="box">
+        <h3>Security</h3>
+        <p>IAM + Policies</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Project 2 -->
+  <div class="card">
+    <h2>Serverless File Upload System</h2>
+    <div class="box-container">
+      <div class="box">
+        <h3>Client</h3>
+        <p>Frontend UI</p>
+      </div>
+      <div class="box">
+        <h3>API</h3>
+        <p>API Gateway</p>
+      </div>
+      <div class="box">
+        <h3>Compute</h3>
+        <p>AWS Lambda</p>
+      </div>
+      <div class="box">
+        <h3>Storage</h3>
+        <p>S3</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Project 3 -->
+  <div class="card">
+    <h2>Cloud Monitoring & Logging System</h2>
+    <div class="box-container">
+      <div class="box">
+        <h3>Monitoring</h3>
+        <p>CloudWatch</p>
+      </div>
+      <div class="box">
+        <h3>Logging</h3>
+        <p>CloudWatch Logs</p>
+      </div>
+      <div class="box">
+        <h3>Alerting</h3>
+        <p>CloudWatch Alarms</p>
+      </div>
+      <div class="box">
+        <h3>Notification</h3>
+        <p>SNS</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Project 4 -->
+  <div class="card">
+    <h2>3-Tier Architecture Web Application</h2>
+    <div class="box-container">
+      <div class="box">
+        <h3>Presentation</h3>
+        <p>S3 / EC2 + CloudFront</p>
+      </div>
+      <div class="box">
+        <h3>Application</h3>
+        <p>EC2 + ALB</p>
+      </div>
+      <div class="box">
+        <h3>Database</h3>
+        <p>RDS (MySQL/PostgreSQL)</p>
+      </div>
+      <div class="box">
+        <h3>Networking</h3>
+        <p>VPC + Security</p>
+      </div>
+    </div>
+  </div>
+
+</section>
+    </section>
+
+    <!-- Fun Stats Section -->
+    <section id="stats" class="stats">
+  <div class="container">
+    <div class="stats-grid">
+
+      <div class="stat-card" data-aos="zoom-in" data-aos-delay="100">
+        <i class="fas fa-cloud"></i>
+        <h3>4+</h3>
+        <p>AWS Projects Deployed</p>
+      </div>
+
+      <div class="stat-card" data-aos="zoom-in" data-aos-delay="200">
+        <i class="fas fa-server"></i>
+        <h3>10+</h3>
+        <p>AWS Services Used</p>
+      </div>
+
+      <div class="stat-card" data-aos="zoom-in" data-aos-delay="300">
+        <i class="fas fa-code-branch"></i>
+        <h3>3+</h3>
+        <p>CI/CD Pipelines Built</p>
+      </div>
+
+      <div class="stat-card" data-aos="zoom-in" data-aos-delay="400">
+        <i class="fas fa-layer-group"></i>
+        <h3>Terraform</h3>
+        <p>Infrastructure as Code</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+    <!-- Contact Section -->
+    <!-- <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+        <div class="contact-content">
+          <div class="contact-info" data-aos="fade-right">
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h3>Email</h3>
+                <p>gaurav.cloud46@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <div>
+                <h3>Phone</h3>
+                <p>+91 6380697679</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h3>Location</h3>
+                <p>Delhi, India</p>
+              </div>
+            </div>
+          </div>
+          <form class="contact-form" data-aos="fade-left" id="contact-form">
+            <div class="form-group">
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your Name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="Subject"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Your Message"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </section> -->
+
+<section id="contact" class="contact">
+  <div class="container">
+    <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+
+    <div class="contact-content">
+
+      <!-- Contact Info -->
+      <div class="contact-info" data-aos="fade-right">
+
+        <div class="contact-item">
+          <i class="fas fa-envelope"></i>
+          <div>
+            <p>
+              <a href="mailto:gaurav.cloud46@gmail.com">
+                <h3>Email</h3>
+              </a>
+            </p>
+          </div>
+        </div>
+
+        <!-- <div class="contact-item">
+          <i class="fas fa-phone"></i>
+          <div>
+            <h3>Phone</h3>
+            <p>Available on request</p>
+          </div>
+        </div> -->
+
+        <div class="contact-item">
+          <i class="fab fa-linkedin"></i>
+          <div>
+      
+            <p>
+              <a href="https://linkedin.com/in/gaurav-kumar-165391203" target="_blank">
+          <h3>LinkedIn</h3>
+              </a>
+            </p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <i class="fab fa-github"></i>
+          <div>
+            
+            <p>
+              <a href="https://github.com/Gauarv146/Gaurav146" target="_blank">
+          <h3>GitHub</h3>
+              </a>
+            </p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <div>
+            <h3>Location</h3>
+            <p>India</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Contact Form -->
+      <form class="contact-form" data-aos="fade-left" id="contact-form">
+
+        <div class="form-group">
+          <input type="text" name="name" placeholder="Your Name" required />
+        </div>
+
+        <div class="form-group">
+          <input type="email" name="email" placeholder="Your Email" required />
+        </div>
+
+        <div class="form-group">
+          <input type="text" name="subject" placeholder="Subject" required />
+        </div>
+
+        <div class="form-group">
+          <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">
+          <i class="fas fa-paper-plane"></i> Send Message
+        </button>
+
+        <!-- Fallback -->
+        <p class="form-note">
+          Or email directly at 
+          <a href="mailto:gaurav.cloud46@gmail.com">gaurav.cloud46@gmail.com</a>
+        </p>
+
+      </form>
+
+    </div>
+  </div>
+</section>
+
+<!-- Footer Section -->
+    <footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+
+      <!-- About -->
+      <div class="footer-section">
+        <h3>Gaurav</h3>
+        <p>Building scalable cloud solutions using AWS, Terraform & CI/CD</p>
+
+        <div class="social-links">
+          <a href="https://linkedin.com/in/gaurav-kumar-165391203" target="_blank">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://github.com/Gauarv146/Gaurav146" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="mailto:gaurav.cloud46@gmail.com">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Technologies -->
+      <div class="footer-section">
+        <h3>Technologies</h3>
+        <ul>
+          <li>AWS (S3, EC2, Lambda, CloudWatch)</li>
+          <li>Terraform & Infrastructure as Code</li>
+          <li>CI/CD (GitHub Actions)</li>
+          <li>Docker & DevOps Tools</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 Gaurav | Built with AWS & DevOps Practices</p>
+    </div>
+  </div>
+</footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top">
+      <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
